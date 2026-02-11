@@ -1,0 +1,147 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "networkInterfaceName1": {
+            "value": "myvm312_z1"
+        },
+        "networkSecurityGroupName": {
+            "value": "myVM-nsg"
+        },
+        "networkSecurityGroupRules": {
+            "value": [
+                {
+                    "name": "SSH",
+                    "properties": {
+                        "priority": 300,
+                        "protocol": "TCP",
+                        "access": "Allow",
+                        "direction": "Inbound",
+                        "sourceAddressPrefix": "*",
+                        "sourcePortRange": "*",
+                        "destinationAddressPrefix": "*",
+                        "destinationPortRange": "22"
+                    }
+                }
+            ]
+        },
+        "subnetId": {
+            "value": "/subscriptions/8183ff30-ad6a-44a9-81f2-93c79b566a7a/resourceGroups/FirstRG/providers/Microsoft.Network/virtualNetworks/vnet-westeurope/subnets/snet-westeurope-1"
+        },
+        "publicIpAddressName1": {
+            "value": "myVM-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Static"
+        },
+        "publicIpAddressSku": {
+            "value": "Standard"
+        },
+        "pipDeleteOption": {
+            "value": "Detach"
+        },
+        "virtualMachineName": {
+            "value": "myVM"
+        },
+        "virtualMachineName1": {
+            "value": "myVM"
+        },
+        "virtualMachineComputerName1": {
+            "value": "myVM"
+        },
+        "virtualMachineRG": {
+            "value": "FirstRG"
+        },
+        "osDiskType": {
+            "value": "Premium_LRS"
+        },
+        "osDiskDeleteOption": {
+            "value": "Delete"
+        },
+        "diskControllerType": {
+            "value": "NVMe"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D2as_v6"
+        },
+        "nicDeleteOption": {
+            "value": "Detach"
+        },
+        "hibernationEnabled": {
+            "value": false
+        },
+        "adminUsername": {
+            "value": "FirstRG"
+        },
+        "adminPublicKey": {
+            "value": null
+        },
+        "enablePeriodicAssessment": {
+            "value": "ImageDefault"
+        },
+        "securityType": {
+            "value": "TrustedLaunch"
+        },
+        "secureBoot": {
+            "value": true
+        },
+        "vTPM": {
+            "value": true
+        },
+        "virtualMachine1Zone": {
+            "value": "1"
+        },
+        "vnetLocation": {
+            "value": "westeurope"
+        },
+        "vnetExtendedLocation": {
+            "value": {}
+        },
+        "vnetVirtualNetworkName": {
+            "value": "vnet-westeurope"
+        },
+        "vnetTagsByResource": {
+            "value": {}
+        },
+        "vnetProperties": {
+            "value": {
+                "subnets": [
+                    {
+                        "name": "snet-westeurope-1",
+                        "properties": {
+                            "addressPrefixes": [
+                                "172.16.0.0/24"
+                            ]
+                        }
+                    }
+                ],
+                "addressSpace": {
+                    "addressPrefixes": [
+                        "172.16.0.0/16"
+                    ]
+                }
+            }
+        },
+        "vnetNatGatewaysWithNewPublicIpAddress": {
+            "value": []
+        },
+        "vnetNatGatewaysWithoutNewPublicIpAddress": {
+            "value": []
+        },
+        "vnetNatGatewayPublicIpAddressesNewNames": {
+            "value": []
+        },
+        "vnetNetworkSecurityGroupsNew": {
+            "value": []
+        },
+        "vnetResourceGroupName": {
+            "value": "FirstRG"
+        },
+        "vnetDeploymentName": {
+            "value": "network-interface-associated-virtual-network-20260205095114"
+        }
+    }
+}
