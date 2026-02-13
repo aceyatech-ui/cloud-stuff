@@ -1,0 +1,10 @@
+{
+    "id": "/subscriptions/8183ff30-ad6a-44a9-81f2-93c79b566a7a/resourceGroups/FirstRG",
+    "name": "FirstRG",
+    "type": "Microsoft.Resources/resourceGroups",
+    "location": "eastus",
+    "tags": {},
+    "properties": {
+        "provisioningState": "Succeeded"
+    }
+}

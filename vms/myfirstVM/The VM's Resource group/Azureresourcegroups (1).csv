@@ -1,0 +1,3 @@
+﻿NAME,SUBSCRIPTION,LOCATION,RESOURCE LINK
+"FirstRG","Azure subscription 1","East US","https://portal.azure.com#resource/subscriptions/8183ff30-ad6a-44a9-81f2-93c79b566a7a/resourceGroups/FirstRG"
+"NetworkWatcherRG","Azure subscription 1","West Europe","https://portal.azure.com#resource/subscriptions/8183ff30-ad6a-44a9-81f2-93c79b566a7a/resourceGroups/NetworkWatcherRG"
