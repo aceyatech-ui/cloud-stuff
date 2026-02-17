@@ -1,0 +1,208 @@
+{
+  "id": "/subscriptions/8183ff30-ad6a-44a9-81f2-93c79b566a7a/resourceGroups/FirstRG/providers/Microsoft.Resources/deployments/needsomezees_1771287842365",
+  "name": "needsomezees_1771287842365",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/8183ff30-ad6a-44a9-81f2-93c79b566a7a/resourcegroups/FirstRG/providers/Microsoft.Storage/storageAccounts/needsomezees",
+    "marketplaceItemId": "Microsoft.StorageAccount",
+    "provisioningHash": "FileStorage"
+  },
+  "properties": {
+    "templateHash": "540187952146511451",
+    "parameters": {
+      "location": {
+        "type": "String",
+        "value": "westeurope"
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "needsomezees"
+      },
+      "accountType": {
+        "type": "String",
+        "value": "Standard_LRS"
+      },
+      "kind": {
+        "type": "String",
+        "value": "StorageV2"
+      },
+      "minimumTlsVersion": {
+        "type": "String",
+        "value": "TLS1_2"
+      },
+      "supportsHttpsTrafficOnly": {
+        "type": "Bool",
+        "value": true
+      },
+      "allowBlobPublicAccess": {
+        "type": "Bool",
+        "value": true
+      },
+      "allowSharedKeyAccess": {
+        "type": "Bool",
+        "value": true
+      },
+      "defaultOAuth": {
+        "type": "Bool",
+        "value": false
+      },
+      "accessTier": {
+        "type": "String",
+        "value": "Hot"
+      },
+      "publicNetworkAccess": {
+        "type": "String",
+        "value": "Enabled"
+      },
+      "allowCrossTenantReplication": {
+        "type": "Bool",
+        "value": false
+      },
+      "networkAclsBypass": {
+        "type": "String",
+        "value": "AzureServices"
+      },
+      "networkAclsDefaultAction": {
+        "type": "String",
+        "value": "Allow"
+      },
+      "networkAclsIpRules": {
+        "type": "Array",
+        "value": []
+      },
+      "networkAclsIpv6Rules": {
+        "type": "Array",
+        "value": []
+      },
+      "publishIpv6Endpoint": {
+        "type": "Bool",
+        "value": false
+      },
+      "dnsEndpointType": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "largeFileSharesState": {
+        "type": "String",
+        "value": "Enabled"
+      },
+      "keySource": {
+        "type": "String",
+        "value": "Microsoft.Storage"
+      },
+      "encryptionEnabled": {
+        "type": "Bool",
+        "value": true
+      },
+      "keyTypeForTableAndQueueEncryption": {
+        "type": "String",
+        "value": "Account"
+      },
+      "infrastructureEncryptionEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "isBlobSoftDeleteEnabled": {
+        "type": "Bool",
+        "value": true
+      },
+      "blobSoftDeleteRetentionDays": {
+        "type": "Int",
+        "value": 7
+      },
+      "isContainerSoftDeleteEnabled": {
+        "type": "Bool",
+        "value": true
+      },
+      "containerSoftDeleteRetentionDays": {
+        "type": "Int",
+        "value": 7
+      },
+      "isShareSoftDeleteEnabled": {
+        "type": "Bool",
+        "value": true
+      },
+      "shareSoftDeleteRetentionDays": {
+        "type": "Int",
+        "value": 7
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2026-02-17T00:25:01.9891391Z",
+    "duration": "PT24.155262S",
+    "correlationId": "dfb8dfd3-7354-432f-adbe-988e9b2e726a",
+    "providers": [
+      {
+        "namespace": "Microsoft.Storage",
+        "resourceTypes": [
+          {
+            "resourceType": "storageAccounts",
+            "locations": [
+              "westeurope"
+            ]
+          },
+          {
+            "resourceType": "storageAccounts/blobServices",
+            "locations": [
+              null
+            ]
+          },
+          {
+            "resourceType": "storageAccounts/fileservices",
+            "locations": [
+              null
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/8183ff30-ad6a-44a9-81f2-93c79b566a7a/resourceGroups/FirstRG/providers/Microsoft.Storage/storageAccounts/needsomezees",
+            "resourceType": "Microsoft.Storage/storageAccounts",
+            "resourceName": "needsomezees"
+          }
+        ],
+        "id": "/subscriptions/8183ff30-ad6a-44a9-81f2-93c79b566a7a/resourceGroups/FirstRG/providers/Microsoft.Storage/storageAccounts/needsomezees/blobServices/default",
+        "resourceType": "Microsoft.Storage/storageAccounts/blobServices",
+        "resourceName": "needsomezees/default"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/8183ff30-ad6a-44a9-81f2-93c79b566a7a/resourceGroups/FirstRG/providers/Microsoft.Storage/storageAccounts/needsomezees",
+            "resourceType": "Microsoft.Storage/storageAccounts",
+            "resourceName": "needsomezees"
+          },
+          {
+            "id": "/subscriptions/8183ff30-ad6a-44a9-81f2-93c79b566a7a/resourceGroups/FirstRG/providers/Microsoft.Storage/storageAccounts/needsomezees/blobServices/default",
+            "resourceType": "Microsoft.Storage/storageAccounts/blobServices",
+            "resourceName": "needsomezees/default"
+          }
+        ],
+        "id": "/subscriptions/8183ff30-ad6a-44a9-81f2-93c79b566a7a/resourceGroups/FirstRG/providers/Microsoft.Storage/storageAccounts/needsomezees/fileservices/default",
+        "resourceType": "Microsoft.Storage/storageAccounts/fileservices",
+        "resourceName": "needsomezees/default"
+      }
+    ],
+    "outputs": {},
+    "outputResources": [
+      {
+        "id": "/subscriptions/8183ff30-ad6a-44a9-81f2-93c79b566a7a/resourceGroups/FirstRG/providers/Microsoft.Storage/storageAccounts/needsomezees"
+      },
+      {
+        "id": "/subscriptions/8183ff30-ad6a-44a9-81f2-93c79b566a7a/resourceGroups/FirstRG/providers/Microsoft.Storage/storageAccounts/needsomezees/blobServices/default"
+      },
+      {
+        "id": "/subscriptions/8183ff30-ad6a-44a9-81f2-93c79b566a7a/resourceGroups/FirstRG/providers/Microsoft.Storage/storageAccounts/needsomezees/fileservices/default"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "/subscriptions/8183ff30-ad6a-44a9-81f2-93c79b566a7a/resourceGroups/FirstRG/providers/Microsoft.Resources/deployments/needsomezees_1771287842365/operations/F33ED95D31BC962B",
+    "operationId": "F33ED95D31BC962B",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2026-02-17T00:24:38.1374405Z",
+      "duration": "PT23.7110829S",
+      "trackingId": "fd81c67e-daca-4b65-842c-32715f3eda70",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/8183ff30-ad6a-44a9-81f2-93c79b566a7a/resourceGroups/FirstRG/providers/Microsoft.Storage/storageAccounts/needsomezees/fileservices/default",
+        "resourceType": "Microsoft.Storage/storageAccounts/fileservices",
+        "resourceName": "needsomezees/default"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8183ff30-ad6a-44a9-81f2-93c79b566a7a/resourceGroups/FirstRG/providers/Microsoft.Resources/deployments/needsomezees_1771287842365/operations/63BD333A943809E5",
+    "operationId": "63BD333A943809E5",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2026-02-17T00:24:38.1374405Z",
+      "duration": "PT23.4298254S",
+      "trackingId": "01c62a25-a281-49ce-9d38-ad8676652883",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/8183ff30-ad6a-44a9-81f2-93c79b566a7a/resourceGroups/FirstRG/providers/Microsoft.Storage/storageAccounts/needsomezees/blobServices/default",
+        "resourceType": "Microsoft.Storage/storageAccounts/blobServices",
+        "resourceName": "needsomezees/default"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8183ff30-ad6a-44a9-81f2-93c79b566a7a/resourceGroups/FirstRG/providers/Microsoft.Resources/deployments/needsomezees_1771287842365/operations/2AFDDE44717EC7C1",
+    "operationId": "2AFDDE44717EC7C1",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2026-02-17T00:24:38.1374405Z",
+      "duration": "PT23.039199S",
+      "trackingId": "d96c29e6-07b6-436a-8f58-f8e88edf2222",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/8183ff30-ad6a-44a9-81f2-93c79b566a7a/resourceGroups/FirstRG/providers/Microsoft.Storage/storageAccounts/needsomezees",
+        "resourceType": "Microsoft.Storage/storageAccounts",
+        "resourceName": "needsomezees"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8183ff30-ad6a-44a9-81f2-93c79b566a7a/resourceGroups/FirstRG/providers/Microsoft.Resources/deployments/needsomezees_1771287842365/operations/08584303190076298969",
+    "operationId": "08584303190076298969",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2026-02-17T00:24:38.1374405Z",
+      "duration": "PT23.820449S",
+      "trackingId": "a3f7a690-50d8-4439-b4a5-8a3e837828a2",
+      "statusCode": "OK"
+    }
+  }
+]
